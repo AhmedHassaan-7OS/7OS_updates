@@ -1,0 +1,24 @@
+{
+  "app_id": "hos_watcher_android",
+  "display_name": "Anime HOS (Android)",
+  "platform": "android",
+  "package_name": "com.hos.anime_hos",
+  "latest_version": "2.0.1",
+  "force_update": false,
+  "kill_switch": false,
+  "kill_title": "تنبيه من إدارة التطبيق",
+  "kill_message": "تم إيقاف نسخة الأندرويد مؤقتاً لأعمال الصيانة والتحديث الدوري. يرجى التواصل مع الدعم الفني لمزيد من التفاصيل.",
+  "announcement": {
+    "active": false,
+    "id": "ann-android-v2-0-1",
+    "title": "إشعار رسمي — نسخة الأندرويد",
+    "message": "مرحباً بكم في النسخة الرسمية الأولى من Anime HOS للأندرويد!",
+    "action_url": "",
+    "action_label": "حسناً"
+  },
+  "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.1.apk",
+  "apk_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.1.apk",
+  "sha256": "6F22426CE94B56CAC6322965F89BB10EEBA9AEE13C7765B0BA569FB02BC76736",
+  "size_bytes": 19722382,
+  "release_notes": "إصدار Anime HOS للأندرويد v2.0.1:\n- واجهة موبايل متكاملة بجميع أقسام ومميزات نسخة الويندوز.\n- مشغل فيديو احترافي بإيماءات اللمس ومضخم صوت حتى 300% ووضع PiP.\n- إدارة أذونات الأندرويد (permission_handler) وتحميل الحلقات للمشاهدة أوفلاين.\n- نظام تحديثات وقفل عن بُعد مستقل تماماً عن نسخة الويندوز."
+}

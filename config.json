@@ -53,6 +53,16 @@
         "size_bytes": 3417442
       },
       "release_notes": "إصدار hosselfishnet v1.0.4 (إصلاح نهائي لتقييد الشبكة):\n- محرك التقييد يتحول لخصم رموز Token Bucket: مرور سلس للحزم الصغيرة للصوت (ديسكورد/واتساب) تحت أي سقف، بدون انقطاع كامل.\n- تعديل الهيكل Following النسخة الأصلية SelfishNet: عدّاد منفصل لكل اتجاه مع إعادة تصفير دورية، ومنع الثقب الأسود المستمر بعد تجاوز الحد.\n- حزم إصلاح ARP ذاتية (Self-Heal) كل دورة لتثبيت ذاكرة الراوتر الحقيقية على جهازك (نمط CArp الأصلي).\n- عدّادات تشخيصية للحزم المُسقطة لكل جهاز.\n- تحسينات شاملة في استقرار التحديث التلقائي."
+    },
+    "hos_watcher_android": {
+      "app_id": "hos_watcher_android",
+      "display_name": "Anime HOS (Android)",
+      "platform": "android",
+      "package_name": "com.hos.anime_hos",
+      "config_path": "apps/hos_watcher_android/config.json",
+      "latest_version": "2.0.1",
+      "kill_switch": false,
+      "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.1.apk"
     }
   }
 }
