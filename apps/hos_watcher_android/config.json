@@ -3,22 +3,22 @@
   "display_name": "Anime HOS (Android)",
   "platform": "android",
   "package_name": "com.hos.anime_hos",
-  "latest_version": "2.0.1",
+  "latest_version": "2.0.2",
   "force_update": false,
   "kill_switch": false,
   "kill_title": "تنبيه من إدارة التطبيق",
   "kill_message": "تم إيقاف نسخة الأندرويد مؤقتاً لأعمال الصيانة والتحديث الدوري. يرجى التواصل مع الدعم الفني لمزيد من التفاصيل.",
   "announcement": {
     "active": false,
-    "id": "ann-android-v2-0-1",
-    "title": "إشعار رسمي — نسخة الأندرويد",
-    "message": "مرحباً بكم في النسخة الرسمية الأولى من Anime HOS للأندرويد!",
+    "id": "ann-android-v2-0-2",
+    "title": "تحديث Anime HOS للأندرويد v2.0.2",
+    "message": "تحديث جديد متاح بمشغل محسن مع AI Enhance ورفع الدقة وتحميل في الخلفية!",
     "action_url": "",
     "action_label": "حسناً"
   },
-  "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.1.apk",
-  "apk_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.1.apk",
-  "sha256": "6F22426CE94B56CAC6322965F89BB10EEBA9AEE13C7765B0BA569FB02BC76736",
-  "size_bytes": 19722382,
-  "release_notes": "إصدار Anime HOS للأندرويد v2.0.1:\n- واجهة موبايل متكاملة بجميع أقسام ومميزات نسخة الويندوز.\n- مشغل فيديو احترافي بإيماءات اللمس ومضخم صوت حتى 300% ووضع PiP.\n- إدارة أذونات الأندرويد (permission_handler) وتحميل الحلقات للمشاهدة أوفلاين.\n- نظام تحديثات وقفل عن بُعد مستقل تماماً عن نسخة الويندوز."
+  "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.2.apk",
+  "apk_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.2.apk",
+  "sha256": "EE1583D3A939483036B65A4DC7E873C52346533D7D19B1927DE6B2303AAC059D",
+  "size_bytes": 19738170,
+  "release_notes": "إصدار Anime HOS للأندرويد v2.0.2:\n- خدمة تحميل في الخلفية (Foreground Service) تستمر حتى بعد إغلاق التطبيق أو قفل الشاشة مع إشعار أندرويد تفاعلي.\n- تطوير واجهة الإشعارات لعرض التحميلات الجارية والتحديثات الجديدة.\n- إصلاح واجهة صفحة الملف الشخصي وإزالة أسهم التمرير الزائدة في القوائم الأفقية.\n- إضافة ميزة AI Photo Enhance (مثل MX Player) وميزة رفع دقة الفيديو (HD+ / Anime 4K) مع أزرار سريعة في الشريط العلوي.\n- إصلاح حقيقي للتحكم بالصوت ومضخم الصوت حتى 300% بدون أخطاء، وتحويل أي تنبيه لنقطة حمراء صغيرة على اليمين بدون حجب الرؤية.\n- إصلاح تحديث عنوان الحلقة عند الانتقال للحلقة التالية تلقائياً أو من قائمة الحلقات."
 }
