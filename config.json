@@ -11,29 +11,29 @@
     "action_url": "",
     "action_label": "حسناً"
   },
-  "latest_version": "2.0.2",
+  "latest_version": "2.0.3",
   "force_update": false,
   "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS_Setup.exe",
-  "release_notes": "إصدار Anime HOS v2.0.2: إضافة AI Photo Enhance ورفع دقة الفيديو في المشغل، إصلاح مضخم الصوت 300% بدون أخطاء، نقطة التنبيه الحمراء الجانبية، وإصلاح عنوان الحلقة عند الانتقال التلقائي.",
+  "release_notes": "إصدار Anime HOS v2.0.3: إصلاح جذري لمشكلة السيرفرات والتوكن المنتهي (401)، إضافة زر «تحديث التوكن» في الصفحة الرئيسية، تجديد تلقائي كل 45 دقيقة، وتحسين استقرار سيرفرات التحديثات.",
   "apps": {
     "hos_watcher": {
       "app_id": "hos_watcher",
       "display_name": "Hos Watcher (Anime HOS)",
-      "latest_version": "2.0.2",
+      "latest_version": "2.0.3",
       "kill_switch": false,
       "kill_title": "تنبيه من إدارة التطبيق",
       "kill_message": "تم إيقاف الخدمة مؤقتاً لأعمال الصيانة والتحديث الدوري.",
       "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS_Setup.exe",
-      "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-Windows-Portable-v2.0.2.zip",
+      "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-Windows-Portable-v2.0.3.zip",
       "patch": {
         "available": true,
         "from_version": "",
-        "to_version": "2.0.2",
-        "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-v2.0.2-patch.zip",
-        "sha256": "18BF6A61DA8E1CD806E92238B9408A8FCAC1DBDDE61CEFEBB71CBA9FC41779E0",
-        "size_bytes": 4292133
+        "to_version": "2.0.3",
+        "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-v2.0.3-patch.zip",
+        "sha256": "05D04701FA58D1538A141278FB4862E251397A950A50D5E5B5C51302D366CCAE",
+        "size_bytes": 4296854
       },
-      "release_notes": "إصدار Anime HOS للويندوز v2.0.2:\n- إضافة ميزة AI Photo Enhance وميزة رفع دقة الفيديو (HD+ / Anime 4K) في الشريط العلوي للمشغل.\n- إصلاح جذري لمضخم الصوت حتى 300% بدون خطأ Audio filter.\n- تحويل تنبيهات المشغل لنقطة حمراء صغيرة على اليمين بدون حجب الرؤية.\n- إصلاح عنوان الحلقة عند الانتقال التلقائي أو من القائمة."
+      "release_notes": "إصدار Anime HOS للويندوز v2.0.3:\n- إصلاح جذري لمشكلة توقف جلب السيرفرات بسبب انتهاء توكن الجلسة (HTTP 401): فحص تلقائي لصلاحية التوكن، تجديد دوري كل 45 دقيقة، وتنظيف فوري للتوكن المنتهي مع إعادة القراءة تلقائياً.\n- إضافة زر «تحديث التوكن» في الشريط العلوي للصفحة الرئيسية لتجديد توكن الحساب ومفاتيح السيرفرات بضغطة واحدة.\n- تحسين استقرار سيرفرات التحديثات عن بُعد وتفادي حدود GitHub API."
     },
     "hosselfishnet": {
       "app_id": "hosselfishnet",
