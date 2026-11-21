@@ -1,27 +1,27 @@
 {
   "app_id": "hos_watcher",
   "display_name": "Hos Watcher (Anime HOS)",
-  "latest_version": "2.0.3",
+  "latest_version": "2.0.4",
   "kill_switch": false,
   "kill_title": "تنبيه من إدارة التطبيق",
   "kill_message": "تم إيقاف الخدمة مؤقتاً لأعمال الصيانة والتحديث الدوري.",
   "announcement": {
     "active": false,
-    "id": "ann-v2-0-3",
+    "id": "ann-v2-0-4",
     "title": "إشعار رسمي",
-    "message": "مرحباً بكم في الإصدار الجديد من Anime HOS v2.0.3!",
+    "message": "مرحباً بكم في الإصدار الجديد من Anime HOS v2.0.4!",
     "action_url": "",
     "action_label": "حسناً"
   },
   "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS_Setup.exe",
-  "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-Windows-Portable-v2.0.3.zip",
+  "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-Windows-Portable-v2.0.4.zip",
   "patch": {
-    "available": true,
+    "available": false,
     "from_version": "",
-    "to_version": "2.0.3",
-    "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-v2.0.3-patch.zip",
-    "sha256": "05D04701FA58D1538A141278FB4862E251397A950A50D5E5B5C51302D366CCAE",
-    "size_bytes": 4296854
+    "to_version": "2.0.4",
+    "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS_Setup.exe",
+    "sha256": "7FE330901F165CF9EFBEFEF3AC3D05D4494FE09C59C3372F73353FAEC31A2C90",
+    "size_bytes": 4332544
   },
-  "release_notes": "إصدار Anime HOS للويندوز v2.0.3:\n- إصلاح جذري لمشكلة توقف جلب السيرفرات بسبب انتهاء توكن الجلسة (HTTP 401): فحص تلقائي لصلاحية التوكن، تجديد دوري كل 45 دقيقة، وتنظيف فوري للتوكن المنتهي مع إعادة القراءة تلقائياً.\n- إضافة زر «تحديث التوكن» في الشريط العلوي للصفحة الرئيسية لتجديد توكن الحساب ومفاتيح السيرفرات بضغطة واحدة.\n- تحسين استقرار سيرفرات التحديثات عن بُعد وتفادي حدود GitHub API."
+  "release_notes": "إصدار Anime HOS للويندوز v2.0.4:\n- توحيد التحديث التلقائي داخل التطبيق مع AnimeHOS_Setup.exe مباشرة (4.1 MB) بدلاً من فصل ملف الباتش، مع دعم تلقائي لصلاحيات المسؤول (UAC) لضمان التثبيت وإعادة التشغيل بنجاح 100%.\n- إصلاح جذري لمشكلة السيرفرات والتوكن المنتهي (HTTP 401) + زر «تحديث التوكن» في الهوم سكرين وتجديد تلقائي كل 45 دقيقة."
 }

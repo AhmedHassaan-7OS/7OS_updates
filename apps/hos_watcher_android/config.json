@@ -3,22 +3,22 @@
   "display_name": "Anime HOS (Android)",
   "platform": "android",
   "package_name": "com.hos.anime_hos",
-  "latest_version": "2.0.2",
+  "latest_version": "2.0.3",
   "force_update": false,
   "kill_switch": false,
   "kill_title": "تنبيه من إدارة التطبيق",
   "kill_message": "تم إيقاف نسخة الأندرويد مؤقتاً لأعمال الصيانة والتحديث الدوري. يرجى التواصل مع الدعم الفني لمزيد من التفاصيل.",
   "announcement": {
     "active": false,
-    "id": "ann-android-v2-0-2",
-    "title": "تحديث Anime HOS للأندرويد v2.0.2",
-    "message": "تحديث جديد متاح بمشغل محسن مع AI Enhance ورفع الدقة وتحميل في الخلفية!",
+    "id": "ann-android-v2-0-3",
+    "title": "تحديث Anime HOS للأندرويد v2.0.3",
+    "message": "تحديث جديد: إصلاح التوكن والسيرفرات + زر تحديث التوكن بالهوم سكرين + تغيير مجلد التحميل وعرض الحلقات في مدير الملفات!",
     "action_url": "",
     "action_label": "حسناً"
   },
-  "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.2.apk",
-  "apk_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.2.apk",
-  "sha256": "EE1583D3A939483036B65A4DC7E873C52346533D7D19B1927DE6B2303AAC059D",
-  "size_bytes": 19738170,
-  "release_notes": "إصدار Anime HOS للأندرويد v2.0.2:\n- خدمة تحميل في الخلفية (Foreground Service) تستمر حتى بعد إغلاق التطبيق أو قفل الشاشة مع إشعار أندرويد تفاعلي.\n- تطوير واجهة الإشعارات لعرض التحميلات الجارية والتحديثات الجديدة.\n- إصلاح واجهة صفحة الملف الشخصي وإزالة أسهم التمرير الزائدة في القوائم الأفقية.\n- إضافة ميزة AI Photo Enhance (مثل MX Player) وميزة رفع دقة الفيديو (HD+ / Anime 4K) مع أزرار سريعة في الشريط العلوي.\n- إصلاح حقيقي للتحكم بالصوت ومضخم الصوت حتى 300% بدون أخطاء، وتحويل أي تنبيه لنقطة حمراء صغيرة على اليمين بدون حجب الرؤية.\n- إصلاح تحديث عنوان الحلقة عند الانتقال للحلقة التالية تلقائياً أو من قائمة الحلقات."
+  "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.3.apk",
+  "apk_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher_android/releases/AnimeHOS-Android-v2.0.3.apk",
+  "sha256": "F1D7B5ECED3374B241104B67DB7CF5BFD016FAD0DC38D59FCB98CD6450B095DE",
+  "size_bytes": 19767698,
+  "release_notes": "إصدار Anime HOS للأندرويد v2.0.3:\n- إصلاح جذري لمشكلة السيرفرات والتوكن المنتهي (HTTP 401) مع إضافة زر «تحديث التوكن» في الهوم سكرين وتجديد تلقائي كل 45 دقيقة.\n- إصلاح وتطوير ميزة تغيير مجلد حفظ الحلقات (اختيار سريع لـ Download/AnimeHOS أو Movies/AnimeHOS، منتقي النظام الأصلي، ومتصفح مجلدات داخلي مع إنشاء مجلد جديد وفحص صلاحية الكتابة).\n- إضافة ميزة عرض الحلقات المحمّلة مباشرة في مدير الملفات بضغطة واحدة وتسجيل الحلقات تلقائياً في MediaStore لتظهر في المعرض ومدير الملفات، مع خيار نسخ الحلقات القديمة إلى التنزيلات العامة.\n- تحسين استقرار سيرفرات التحديثات عن بُعد وتفادي حدود GitHub API."
 }
